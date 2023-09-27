@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional: Adding the Bootstrap theme for additional styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css">
+    <!-- Link your custom CSS file -->
+    <link rel="stylesheet" href="styleres.css">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Helvetica, sans-serif;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-toggler-icon {
+            color: white;
+        }
+
+        .navbar-nav .nav-link {
+            color: white;
+            margin-right: 15px;
+        }
+
+        .navbar-nav .btn-light {
+            background-color: #fff;
+            color: #007BFF;
+            border: none;
+            border-radius: 20px;
+            padding: 5px 20px;
+        }
+
+        /* Academic Resources Section Styles */
+        .white-box {
+            background-color: #fff;
+            border: 1px solid #007BFF;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin: 10px; /* Adjust as needed for spacing */
+            overflow-x: auto;
+        }
+
+        .emoji {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .scrollable-section {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            max-width: 100%;
+        }
+
+        .scrollable-section img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 10px; /* Adjust as needed for spacing between images */
+        }
+
+        /* Footer Styles */
+        .fixed-bottom {
+            position: sticky;
+            bottom: 0;
+        }
+    </style>
+    <title>Academic Resources Page</title>
+</head>
+<body style="background-image: url('whitetexture.gif'); background-size: cover; background-repeat: no-repeat;">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">LearnShare</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Q&A Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News & Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light" href="Login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Academic Resources Section -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Section: What's Trending -->
+                <div class="col-md-4 mb-4">
+                    <div class="white-box">
+                        <div class="emoji">📈</div>
+                        <h2 class="text-center mb-4">What's Trending</h2>
+                        <div class="scrollable-section">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <!-- Images for What's Trending (Add 10 images here) -->
+                            <!-- ... (Images for What's Trending) ... -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Programming -->
+                <div class="col-md-4 mb-4">
+                    <div class="white-box">
+                        <div class="emoji">💻</div>
+                        <h2 class="text-center mb-4">Programming</h2>
+                        <div class="scrollable-section">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <!-- Images for Programming (Add 10 images here) -->
+                            <!-- ... (Images for Programming) ... -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section: Others -->
+                <div class="col-md-4 mb-4">
+                    <div class="white-box">
+                        <div class="emoji">🌐</div>
+                        <h2 class="text-center mb-4">Others</h2>
+                        <div class="scrollable-section">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <img src="book.png" alt="Image 1">
+                            <!-- Images for Others (Add 10 images here) -->
+                            <!-- ... (Images for Others) ... -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom bg-primary py-2 text-white">
+        <div class="container text-center">
+            Copyright © 2023. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

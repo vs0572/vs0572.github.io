@@ -1,0 +1,63 @@
+/* Apply smooth scrolling behavior to anchor links */
+html {
+    scroll-behavior: smooth;
+}
+/* Style for the menu bar */
+.navbar {
+    background-color: #343434; /* Blue color */
+    color: white;
+}
+
+/* Style for the login button */
+.navbar .nav-link.login-button {
+    color: #fff; /* White text color */
+    border: 2px solid #fff; /* White border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 6px 12px; /* Adjust padding as needed */
+}
+
+/* Style for the login button on hover */
+.navbar .nav-link.login-button:hover {
+    background-color: #fff; /* White background on hover */
+    color: #007BFF; /* Blue text color on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+/* Style for the section containing "Welcome to LearnShare" */
+#section-welcome {
+    background: url('welcome.gif') center/cover no-repeat;
+    color: #fff; /* White text color */
+}
+
+/* Style for section 1 - Recent Projects */
+#section-1 {
+    background: url('recent-projects.gif') center/cover no-repeat;
+    color: #fff; /* White text color */
+}
+
+/* Style for section 2 - Q&A Forum */
+#section-2 {
+    background: url('Q&A.gif') center/cover no-repeat;
+    color: #fff; /* White text color */
+}
+
+/* Style for section 3 - Idea Submission */
+#section-3 {
+    background: url('ideas.gif') center/cover no-repeat;
+    color: black;
+}
+
+/* Style for section 4 - Academic Resources */
+#section-4 {
+    background: url('reading.gif') center/cover no-repeat;
+    color: #fff; /* White text color */
+}
+
+/* Style for section 5 - News & Updates */
+#section-5 {
+    background: url('news.gif') center/cover no-repeat;    
+    color: black
+}
+#main-stage {
+    background: url('welcome.gif') center/cover no-repeat;
+    color:black; /* White text color */
+}

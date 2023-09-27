@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Optional: Adding the Bootstrap theme for additional styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap-theme.min.css">
+    <!-- Link your custom CSS file -->
+    <link rel="stylesheet" href="stylenews.css">
+    <style>
+        /* Compact details */
+        .news-item p {
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        /* Scrollable announcements */
+        .scrollable-news {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+    </style>
+    <title>News Page</title>
+</head>
+<body>
+    <!-- Your HTML content here -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">LearnShare</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Q&A Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Academic Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-light" href="Login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- News Section -->
+    <section class="vh-100 bg-light">
+        <div class="container h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img src="speaker.jpeg" class="img-fluid" alt="Speaker Image">
+                </div>
+                <div class="col-md-8 col-lg-6 col-xl-6 offset-xl-1 login-box">
+                    <h2 class="text-center">News and Updates</h2>
+                    <div class="scrollable-news">
+                        <!-- News Items -->
+                        <div class="news-item">
+                            <h3>Personalized Learning</h3>
+                            <p class="info">
+                                <span>Date:</span> September 15, 2023
+                                <span>Time:</span> 10:00 AM
+                                <span>Version:</span> 1.0
+                            </p>
+                            <p>Modern curriculum design emphasizes personalized learning paths, catering to individual student needs and interests. This approach allows students to progress at their own pace, fostering a deeper understanding of subjects.</p>
+                        </div>
+                        <div class="news-item">
+                            <h3>Incorporating Technology</h3>
+                            <p class="info">
+                                <span>Date:</span> September 12, 2023
+                                <span>Time:</span> 02:30 PM
+                                <span>Version:</span> 1.5
+                            </p>
+                            <p>Curriculum today integrates technology as a core component. From interactive e-books to online learning platforms, technology offers engaging tools for both students and educators.</p>
+                        </div>
+                        <div class="news-item">
+                            <h3>Global Perspectives</h3>
+                            <p class="info">
+                                <span>Date:</span> September 10, 2023
+                                <span>Time:</span> 09:15 AM
+                                <span>Version:</span> 1.0
+                            </p>
+                            <p>Curricula are increasingly designed to include global perspectives. Students are exposed to diverse cultures and world issues, promoting a more comprehensive understanding of the interconnectedness of the world.</p>
+                        </div>
+                        <div class="news-item">
+                            <h3>Critical Thinking Emphasis</h3>
+                            <p class="info">
+                                <span>Date:</span> September 8, 2023
+                                <span>Time:</span> 03:45 PM
+                                <span>Version:</span> 1.2
+                            </p>
+                            <p>Contemporary curriculum places a strong emphasis on developing critical thinking skills. Students are encouraged to analyze, evaluate, and solve complex problems, preparing them for the challenges of the 21st century.</p>
+                        </div>
+                        <div class="news-item">
+                            <h3>Project-Based Learning:</h3>
+                            <p class="info">
+                                <span>Date:</span> September 5, 2023
+                                <span>Time:</span> 11:30 AM
+                                <span>Version:</span> 1.1
+                            </p>
+                            <p>Curriculum advancements promote project-based learning, where students engage in hands-on, real-world projects. This approach fosters creativity, teamwork, and practical application of knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom bg-primary py-2 text-white">
+        <div class="container text-center">
+            Copyright © 2023. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>

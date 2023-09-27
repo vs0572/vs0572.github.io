@@ -1,0 +1,78 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+/* Style for the website name */
+/* Style for the website name */
+.website-name {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background-color: #007BFF; /* Add the blue background color */
+    color: #fff; /* Set the text color to white */
+    padding: 10px; /* Add padding for better appearance */
+}
+/* Style for the login box */
+.login-box {
+    background-color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Horizontal arrangement for teacher checkboxes */
+.form-check-inline {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Style for the Sign In heading */
+.login-box h2 {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Style for the image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Style for the labels to align them to the left end */
+.form-label {
+    text-align: left;
+}
+/* Add padding to your existing content to prevent overlap with the footer */
+.container-fluid {
+    padding-bottom: 50px; /* Adjust as needed */
+}
+
+/* Style for the fixed bottom footer */
+.fixed-bottom {
+    position: sticky;
+    bottom: 0;
+}
+/* Dark mode styles */
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+body {
+    background-image: url('ezgif-1-9760ef9c4f.gif'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
